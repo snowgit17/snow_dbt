@@ -1,3 +1,4 @@
+{{ config(materialized='table') }}
 
 WITH tb1 as(
     select
