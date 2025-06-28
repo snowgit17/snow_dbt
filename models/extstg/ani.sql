@@ -1,4 +1,4 @@
-{{config(materialized = 'table')}}
+{{config(materialized = 'view')}}
 
 WITH tb1 as(
     select
