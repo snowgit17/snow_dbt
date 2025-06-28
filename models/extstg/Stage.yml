@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: data_shared_schema
+    database: "{{('Aniket')}}"
+    schema: raw_dev
+    tables:
+      - name: data
