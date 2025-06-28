@@ -1,6 +1,6 @@
 version: 2
 sources:
-  - name: datafeed_shared_schema
+  - name: data_shared_schema
     database: "{{('Aniket')}}"
     schema: raw_dev
     tables:
