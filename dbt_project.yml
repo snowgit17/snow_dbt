@@ -40,6 +40,7 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+    stg_raw_date:
       +database: snow_uat
       +schema: snow_dbt_uat
    
