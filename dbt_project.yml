@@ -42,5 +42,4 @@ models:
       +materialized: table
       +database: snow_uat
       +schema: snow_dbt_uat
-    stg_raw_data:
-      +materialized: table
+   
