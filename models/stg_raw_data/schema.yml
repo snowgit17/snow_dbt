@@ -1,0 +1,7 @@
+version: 2
+sources:
+    - name: my_raw_data
+      database: "{{('raw_data')}}"
+      schema: raw_stg_data
+      tables:
+        - name: stg_customerdata
