@@ -41,6 +41,6 @@ models:
     example:
       +materialized: table
     stg_raw_data:
-      +database: snow_uat
-      +schema: snow_dbt_uat
+      +database: snow_prod
+      +schema: snow_dbt_prod
    
