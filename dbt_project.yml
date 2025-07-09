@@ -42,8 +42,9 @@ models:
       +materialized: table
     stg_raw_data:
       +materialized: table
-      +database: snow_prod
-      +schema: snow_dbt_prod
+      +database: snow_uat
+      +schema: snow_dbt_uat
+
 snapshots:
   +target_database: snow_snap
   +target_schema: snapshots    
