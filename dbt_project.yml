@@ -41,6 +41,10 @@ models:
     example:
       +materialized: table
     stg_raw_data:
+      +materialized: table
       +database: snow_prod
       +schema: snow_dbt_prod
-   
+snapshots:
+  +target_database: snow_snap
+  +target_schema: snapshots    
+
