@@ -1,4 +1,4 @@
-{% snapshot hard_delete %}
+{% snapshot hard2 %}
 
     {{
         config(
