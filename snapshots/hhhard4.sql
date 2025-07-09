@@ -1,4 +1,4 @@
-{% snapshot hard2 %}
+{% snapshot hhhard4 %}
 
     {{
         config(
